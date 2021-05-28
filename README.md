@@ -8,9 +8,9 @@
 
 <p>2. Each Lambda function holds an express application, to install the node module dependencies for each, navigate to the following directories and run <code>npm install</code> within both.</p>
 
-<pre><b>Authentication Lambda Function Path:</b><code>amplify/backend/function/Authentication/src</code></pre>
+<pre><code>amplify/backend/function/Authentication/src</code></pre>
 
-<pre><b>Plaid Lambda Function Path:</b><code>amplify/backend/function/Plaid/src</code></pre>
+<pre><code>amplify/backend/function/Plaid/src</code></pre>
 
 &nbsp;
 
