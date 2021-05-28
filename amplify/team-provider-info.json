@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bankify-dev-131033-authRole",
+      "UnauthRoleArn": "arn:aws:iam::084894772686:role/amplify-bankify-dev-131033-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::084894772686:role/amplify-bankify-dev-131033-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bankify-dev-131033-deployment",
+      "UnauthRoleName": "amplify-bankify-dev-131033-unauthRole",
+      "StackName": "amplify-bankify-dev-131033",
+      "StackId": "arn:aws:cloudformation:us-east-1:084894772686:stack/amplify-bankify-dev-131033/fcdb8fb0-8b0f-11eb-b1de-1271b8f35690",
+      "AmplifyAppId": "dtzeq3g9gf339"
+    },
+    "categories": {
+      "function": {
+        "Authentication": {
+          "deploymentBucketName": "amplify-bankify-dev-131033-deployment",
+          "s3Key": "amplify-builds/Authentication-6f6138314b5375757579-build.zip"
+        },
+        "Plaid": {
+          "deploymentBucketName": "amplify-bankify-dev-131033-deployment",
+          "s3Key": "amplify-builds/Plaid-426a54347130444b5058-build.zip"
+        }
+      }
+    }
+  }
+}

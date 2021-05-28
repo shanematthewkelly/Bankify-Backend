@@ -1,0 +1,71 @@
+{
+    "paths": [
+        {
+            "name": "/users/register",
+            "lambdaFunction": "Authentication",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/users/register"
+        },
+        {
+            "name": "/users/login",
+            "lambdaFunction": "Authentication",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/users/login"
+        },
+        {
+            "name": "/retrieve/users/{id}",
+            "lambdaFunction": "Authentication",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/retrieve/users/*"
+        },
+        {
+            "name": "/",
+            "lambdaFunction": "Plaid",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/"
+        }
+    ],
+    "resourceName": "authAPI",
+    "apiName": "authAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "Authentication"
+        },
+        {
+            "lambdaFunction": "Plaid"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-bankify-dev-131033-authRole",
+        "unAuthRoleName": "amplify-bankify-dev-131033-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "Authentication",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "Plaid",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "7e01e884"
+}
