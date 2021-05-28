@@ -24,7 +24,7 @@
 
 <p>1. Initialize a new Amplify project by running <code>amplify init</code></p>
 
-<p>2. You will be asked to configure your environment, follow the steps presented to you in your CLI./p>
+<p>2. You will be asked to configure your environment, follow the steps presented to you in your CLI.</p>
 
 <p>3. The CLI will prompt you to authenticate with AWS using either your IAM <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html"><b>access keys</b></a> or your <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html"><b>AWS Profile.</b></a> This will initialize the project on the cloud. </p>
 
